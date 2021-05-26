@@ -6,7 +6,7 @@ var colore = prompt("inserisci colore preferito");
 
 var password=nome+cognome+colore+21;
 
-document.getElementById("testo").innerHTML=password;
+document.getElementById("testo").innerHTML=password.toLowerCase();
 
 
 
